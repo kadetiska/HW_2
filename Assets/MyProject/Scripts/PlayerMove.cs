@@ -20,6 +20,7 @@ namespace MyProject
         {
             _move.x = Input.GetAxis("Horizontal");
             _move.z = Input.GetAxis("Vertical");
+            
         }
          void FixedUpdate()
         {
